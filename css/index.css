@@ -1,0 +1,102 @@
+#main {
+    margin: 20px auto;
+    overflow: hidden;
+    width: 100%;
+    height: 1000px;
+}
+#main .self-introduce {
+    text-align: center;
+    height: 500px;
+}
+#main .self-introduce h3 {
+    width: 100%;
+    text-align: center;
+    line-height: 38px;
+    background-color: rgba(224, 255, 255, 0.3);/* #e0ffff; */
+    color: #00008b;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#main .self-introduce .basic {
+	border-radius: 20px;
+    width: 36%;
+    height: 500px;
+    background-color: rgba(135, 206, 235, 0.5);/* #87ceeb; */
+    float: left;
+}
+#main .self-introduce .basic p{
+	color: #00008b;
+	text-align: center;
+}
+#main .self-introduce .basic img {
+	border-radius: 20px;
+    width: 150px;
+    height: 150px;
+}
+#main .self-introduce .advance {
+	border-radius: 20px;
+    width: 60%;
+    height: 500px;
+    background-color: rgba(135, 206, 235, 0.5);/* #87ceeb; */
+    float: right;
+}
+#main .self-introduce .advance .article {
+    text-align: justify; 
+    text-justify: inter-ideograph;
+    text-indent: 2em;    
+    font-size: 20px;
+    width: 90%;
+	padding-left: 40px;
+}
+
+
+#main .welcome .display {
+	border-radius: 20px;
+    width: 100%;
+    height: 520px;
+    float: left;
+    padding-top: 20px;
+}
+#main .welcome .display h3 {
+	border-radius: 20px;
+    width: 90%;
+    text-align: center;
+    line-height: 38px;
+    text-indent: 1em;
+    background-color: rgba(224, 255, 255, 0.5);/* #e0ffff; */
+    color: #00008b;
+    font-size: 18px;
+	margin: 0 auto;
+}
+#main .welcome .display ul {
+	border-radius: 20px;
+    width: 90%;
+    height: 420px;
+    margin: 20px auto;
+	background-color: rgba(173, 216, 230, 0.5);/* #add8e6; */
+}
+#main .welcome .display li {
+    padding-left: 50px;
+    padding-right: 50px;
+    float: left;
+}
+#main .welcome .display p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    font-weight: bold;
+}
+#main .welcome .display img {
+	border-radius: 20px;
+	margin-top: 30px;
+    width: 250px;
+    height: 250px;
+}
+#main .welcome .display img:hover {
+	border-radius: 20px;
+	width: 280px;
+	height: 280px;
+	margin-left: -20px;
+	margin-top: 0px;
+}
